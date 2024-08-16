@@ -1,5 +1,1 @@
-class lr { static async loadMap(t, e) { if (window.isMapLoaded) { console.error("Map already loaded"); return } window.currentMapId = t, window.isMapLoaded = !0; const i = lr.getUrl(t, e); await lr.loadScript(i) } static loadScript(t) { return new Promise(e=>{ console.log("scriptUrl", t); const i = document.getElementsByTagName("head")[0] , n = document.createElement("script"); n.type = "text/javascript", n.src = t, n.onload = ()=>setTimeout(e, 50), i.appendChild(n) } ) } static getUrl(t, e) { return `https://cdn.jsdelivr.net/gh/Dwang-ML/Ice-Dodo-Maptesting/B.js` } } lr.loadMap("a", "b");
-
-https://cdn.jsdelivr.net/gh/Dwang-ML/Ice-Dodo-Maptesting/B.js
-
-
+class lr { static async loadMap(t, e) { if (window.isMapLoaded) { console.error("Map already loaded"); return } window.currentMapId = t, window.isMapLoaded = !0; const i = lr.getUrl(t, e); await lr.loadScript(i) } static loadScript(t) { return new Promise(e=>{ console.log("scriptUrl", t); const i = document.getElementsByTagName("head")[0] , n = document.createElement("script"); n.type = "text/javascript", n.src = t, n.onload = ()=>setTimeout(e, 50), i.appendChild(n) } ) } static getUrl(t, e) { return `https://cdn.jsdelivr.net/gh/Dwang-ML/Ice-Dodo-Maptesting/Plague.js` } } lr.loadMap("a", "b");
