@@ -1,7 +1,7 @@
 var map = {
-    title: "Test Map V8",
+    title: "Plague",
     song: "env2",
-    maker: "Ice dodo map maker",
+    maker: "Pluh",
     spawn: [0, 0.5, 0],
     init: function() {
         a.y([-1.52993, -2.28993, -18.05993], [2.09, 0, 0], [4.02, 0.12, 4.02], "05070a", 0, 0, 0.6, false, 1, true);
