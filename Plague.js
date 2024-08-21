@@ -294,7 +294,7 @@ var map = {
             break;
         case 1:
             if (PZ < -152.37986) {
-                speed = cc.get("speed", null);
+                speed = cc.get("speed");
                 this.section_id += 1
             }
             break;
